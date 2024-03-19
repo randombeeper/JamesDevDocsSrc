@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjamesdevdocs=self.webpackChunkjamesdevdocs||[]).push([[1130],{1e3:e=>{e.exports=JSON.parse('{"permalink":"/JamesDevDocs/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

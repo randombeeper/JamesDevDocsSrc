@@ -3,6 +3,7 @@
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
+// comment
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
@@ -11,17 +12,18 @@ const config = {
   title: 'James Dev Doc Test Site',
   tagline: 'Docs are cool',
   favicon: 'img/favicon.ico',
+  trailingSlash: true,
 
   // Set the production url of your site here
   url: 'https://randombeeper.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/JamesDevDocs/',
+  baseUrl: '/JamesDevDocsSrc/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'randombeeper', // Usually your GitHub org/user name.
-  projectName: 'randomeeper', // Usually your repo name.
+  projectName: 'JamesDevDocsSrc', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

@@ -4,7 +4,7 @@
         <title>Getting Started with Algolia DocSearch Blog</title>
         <link>https://randombeeper.github.io/JamesDevDocsSrc/blog</link>
         <description>Getting Started with Algolia DocSearch Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Mar 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,23 +12,27 @@
             <title><![CDATA[Welcome]]></title>
             <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/welcome</link>
             <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+            <pubDate>Tue, 19 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[I recently joined Algolia as Senior Program Manager for DocSearch (and other programs too). I'm a firm believer that hands on experience is the ultimate way to increase knowhow and as program manager for DocSearch, that's the first thing I wanted to do. So, this blog will detail the process I went through as a complete newcomer to DocSearch. As an added bonus, this site is also going to serve as the actual input for the DocSearch I create! As I go, I will be able to create more content, which will require me to learn more about DocSearch, which will require me to write more about it. Win win!]]></description>
+            <content:encoded><![CDATA[<p>I recently joined Algolia as Senior Program Manager for DocSearch (and other programs too). I'm a firm believer that hands on experience is the ultimate way to increase knowhow and as program manager for DocSearch, that's the first thing I wanted to do. So, this blog will detail the process I went through as a complete newcomer to DocSearch. As an added bonus, this site is also going to serve as the actual input for the DocSearch I create! As I go, I will be able to create more content, which will require me to learn more about DocSearch, which will require me to write more about it. Win win!</p>
+<p>Short bio - went to school for computer engineering, focused on JAVA for my first few professional years, switched jobs, maintained an internal website based on PHP for the QA team of a C++ application. Lots of C++, Python, PHP/C#, more JAVA, and years later, I started doing more management than coding. Following that while part of a technical sales team, I coded more at the desktop UI level with MFC/WPF/.NET to show developers how to implement C++ libraries for the desktop. After that came a long string of more managerial/director roles that, while I had to manage technical people, kept me from doing technical things for most the time. So while I have a pretty deep technical knowledge pool to pull from, I've been out of the game for awhile. All the latest web tech stack stuff is pretty new to me in terms of hands-on.</p>
+<p>Come with me to implement DocSearch on a new doc site.</p>
+<p><img decoding="async" loading="lazy" alt="Publish a doc site that uses DocSearch" src="https://randombeeper.github.io/JamesDevDocsSrc/assets/images/devdocsite-d3cc34d9790e793949720a70e7ef579c.jpeg" width="1024" height="1024" class="img_ev3q"></p>
+<p>Before I went too far, I thought it would be good to make an outline of what I was trying to acheive:</p>
 <ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
+<li>Create a developer doc site</li>
+<li>Create a DocSearch application with index</li>
+<li>Implement a frontend UI for searching the index</li>
+<li>Make updates to the doc site</li>
+<li>Update the index</li>
+<li>See the changes reflected in the UI</li>
+<li>Improve the process overall as I learn more
+** Refine index and utilize more Algolia features as I go
+** Refine the search UI experience</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://randombeeper.github.io/JamesDevDocsSrc/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <category>facebook</category>
-            <category>hello</category>
-            <category>docusaurus</category>
+<h1>Deploy a doc site</h1>
+<p>My first inclination was to create a website based on Hugo. The reason I thought of Hugo was that I knew it had a big supportive community and thought that could be a good place to start. Keep in mind that, while I</p>]]></content:encoded>
+            <category>Algolia</category>
         </item>
         <item>
             <title><![CDATA[MDX Blog Post]]></title>

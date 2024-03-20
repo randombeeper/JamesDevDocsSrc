@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjamesdevdocs=self.webpackChunkjamesdevdocs||[]).push([[6084],{3142:s=>{s.exports=JSON.parse('{"label":"Algolia","permalink":"/JamesDevDocsSrc/blog/tags/algolia","allTagsPath":"/JamesDevDocsSrc/blog/tags","count":1,"unlisted":false}')}}]);

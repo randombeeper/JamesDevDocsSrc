@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            DocSearch Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>
@@ -28,13 +28,15 @@ function HomepageHeader() {
   );
 }
 
+// JG - I'm thinking this is the body within "main"
+// so maybe put the JS
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      <HomepageHeader/>
       <main>
         <HomepageFeatures />
       </main>

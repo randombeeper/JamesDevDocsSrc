@@ -9,8 +9,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'James Dev Doc Test Site',
-  tagline: 'Docs are cool',
+  title: 'Getting Started with Algolia DocSearch',
+  tagline: 'Using Docusaurus, Github Pages, and DocSearch',
   favicon: 'img/favicon.ico',
   trailingSlash: true,
 
@@ -35,6 +35,12 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  
+  // added via the Algolia DocSearch config below?
+  // add the docsearch css
+  //stylesheets: [
+  //  'https://cdn.jsdelivr.net/npm/@docsearch/css@3'
+  //],
 
   presets: [
     [
@@ -43,17 +49,9 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -67,8 +65,16 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      
+      algolia: {
+        appId: 'DMIMK1IC3E',
+        apiKey: '6f839a0554810d57667dd09cd94b9966',
+        indexName: 'jamesdevsrc',
+        contextualSearch: true,
+      },
+
       navbar: {
-        title: 'My Site',
+        title: '+ Algolia DocSearch',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -80,9 +86,13 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'left'
+          },
+          {
+            href: 'https://github.com/randombeeper/JamesDevDocsSrc',
             label: 'GitHub',
             position: 'right',
           },
@@ -104,16 +114,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/3C4aftKH',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/algolia',
               },
             ],
           },
@@ -126,7 +132,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/randombeeper/JamesDevDocsSrc',
               },
             ],
           },

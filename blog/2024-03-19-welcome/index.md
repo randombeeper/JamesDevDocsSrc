@@ -2,7 +2,8 @@
 slug: welcome
 title: Welcome
 authors: jgray
-tags: [Algolia]
+tags: [Algolia, Docusaurus]
+sidebar_position: 1
 ---
 I recently joined Algolia as Senior Program Manager for DocSearch (and other programs too). I'm a firm believer that hands on experience is the ultimate way to increase knowhow and as program manager for DocSearch, that's the first thing I wanted to do. So, this blog will detail the process I went through as a complete newcomer to DocSearch. As an added bonus, this site is also going to serve as the actual input for the DocSearch I create! As I go, I will be able to create more content, which will require me to learn more about DocSearch, which will require me to write more about it. Win win!
 
@@ -23,9 +24,14 @@ Before I went too far, I thought it would be good to make an outline of what I w
 * Update the index
 * See the changes reflected in the UI
 * Improve the process overall as I learn more
-** Refine index and utilize more Algolia features as I go
-** Refine the search UI experience
+    * Refine index and utilize more Algolia features as I go
+    * Refine the search UI experience
 
-# Deploy a doc site
+# Deploy a doc site with Docusaurus
 
-My first inclination was to create a website based on Hugo. The reason I thought of Hugo was that I knew it had a big supportive community and thought that could be a good place to start. Keep in mind that, while I 
+My first inclination was to create a website based on Hugo. The reason for Hugo was that I knew it had a big supportive community and figured that could be a good place to start. Keep in mind that while I have a technical background I didn't want to spend too much time over engineering an entire custom doc site and deployment mechanism. I'm looking to get up and running as fast as possile. Knowing that, I did switch gears to Docusaurus as I had heard within Algolia that we had out-of-the-box integration.
+
+Docusaurus deployed! Checkout the tutorial on that soon.
+
+That's all for today...
+

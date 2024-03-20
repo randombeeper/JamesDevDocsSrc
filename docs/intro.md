@@ -2,36 +2,30 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 5min Tutorial
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **Docusaurus + Algolia in less than 5 minutes**. To make this a 5min tutorial, we'll be skipping all the blood sweat and tears that might occur behind the scenes to setup even the simplest aspects such as getting nodejs or establishing your GitHub username/password so that you can push to your repo. The more in depth tutorials will cover these aspects.
 
-## Getting Started
+## What you'll need
 
-Get started by **creating a new site**.
+* A documentation site - We'll be using Docusuarus
+* Version Control - We'll be using GitHub
+* Somewhere to deploy Docusaurus - We'll be using Github Pages
+* Search - We'll be using Algolia DocSearch
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Install Docusaurus
 
-### What you'll need
-
+### You'll Need
 - [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
+Generate a new Docusaurus site using the **classic template**. The classic template will automatically be added to your project after you run the command:
 
 ```bash
 npm init docusaurus@latest my-website classic
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
+### View Locally
 
 Run the development server:
 
@@ -40,8 +34,8 @@ cd my-website
 npm run start
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/. Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Check your site into GitHub
+## Deploy to a branch
+## Setup Search

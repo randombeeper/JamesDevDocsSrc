@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjamesdevdocs=self.webpackChunkjamesdevdocs||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"GitHub and DocSearch","permalink":"/JamesDevDocsSrc/blog/github-docsearch","unlisted":false},{"title":"Welcome","permalink":"/JamesDevDocsSrc/blog/welcome","unlisted":false}]}')}}]);

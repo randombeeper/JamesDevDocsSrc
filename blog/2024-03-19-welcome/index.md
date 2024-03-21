@@ -3,7 +3,7 @@ slug: welcome
 title: Welcome
 authors: jgray
 tags: [Algolia, Docusaurus]
-sidebar_position: 1
+image: ./devdocsite.jpeg
 ---
 I recently joined Algolia as Senior Program Manager for DocSearch (and other programs too). I'm a firm believer that hands on experience is the ultimate way to increase knowhow and as program manager for DocSearch, that's the first thing I wanted to do. So, this blog will detail the process I went through as a complete newcomer to DocSearch. As an added bonus, this site is also going to serve as the actual input for the DocSearch I create! As I go, I will be able to create more content, which will require me to learn more about DocSearch, which will require me to write more about it. Win win!
 

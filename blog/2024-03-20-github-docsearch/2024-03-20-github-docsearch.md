@@ -3,7 +3,7 @@ slug: github-docsearch
 title: GitHub and DocSearch
 authors: [jgray]
 tags: [Docusaurus,GitHub,GitHub Pages,DocSearch]
-sidebar_position: 2
+image: ./githubdocsearchfun.jpeg
 ---
 
 # Docusaurus in GitHub

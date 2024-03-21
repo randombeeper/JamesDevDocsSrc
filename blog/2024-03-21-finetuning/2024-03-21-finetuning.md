@@ -35,4 +35,13 @@ I see right away there are two properties to look at:
 * discoveryPatterns
 * pathsToMatch
 
-That's all for today...
+After looking at those for a bit, what I really wanted was a way to exclude URLs. After a search on the Crawler docs, guess what, there is (https://www.algolia.com/doc/tools/crawler/apis/configuration/exclusion-patterns/#examples), so I added these to my crawler:
+
+```js
+  exclusionPatterns: [
+    "https://randombeeper.github.io/JamesDevDocsSrc/blog/tags/**",
+    "https://randombeeper.github.io/JamesDevDocsSrc/blog/",
+  ],
+```
+
+Now my search results do not contain "duplicate" pages, only results that will go right to the blog post where the match is found.

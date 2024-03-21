@@ -3,7 +3,7 @@ slug: finetuning
 title: Why are there duplicate results?
 authors: [jgray]
 tags: [DocSearch]
-image: ./dups.png
+og:image: ./dups.png
 date: 2024-03-21T11:00
 ---
 

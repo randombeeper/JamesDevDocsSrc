@@ -4,7 +4,7 @@ title: Where are my results?
 authors: [jgray]
 tags: [DocSearch]
 date: 2024-03-21T10:00
-sidebar_position: 3
+image: ./noresultssad.jpeg
 ---
 
 # Search UI

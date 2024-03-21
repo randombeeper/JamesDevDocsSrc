@@ -13,6 +13,8 @@ Come with me to implement DocSearch on a new doc site.
 
 ![Publish a doc site that uses DocSearch](./devdocsite.jpeg)
 
+<!--truncate-->
+
 # The rough overall approach
 
 Before I went too far, I thought it would be good to make an outline of what I was trying to acheive:

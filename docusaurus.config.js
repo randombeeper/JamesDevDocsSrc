@@ -70,7 +70,7 @@ const config = {
         appId: 'DMIMK1IC3E',
         apiKey: '6f839a0554810d57667dd09cd94b9966',
         indexName: 'jamesdevsrc',
-        contextualSearch: true,
+        contextualSearch: false,
       },
 
       navbar: {

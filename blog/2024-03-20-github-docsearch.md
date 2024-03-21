@@ -15,6 +15,8 @@ npm run deploy
 
 This automatically publishes your build to the branch <code>gh-pages</code> which GH Pages is also easily tuned into. This was the way to go.
 
+<!--truncate-->
+
 GitHub Deployed! Look for the tutorial soon.
 
 # GitHub Pages

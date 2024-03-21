@@ -46,3 +46,5 @@ After looking at those for a bit, what I really wanted was a way to exclude URLs
 ```
 
 Now my search results do not contain "duplicate" pages, only results that will go right to the blog post where the match is found.
+
+![alt text](nomoredups.png)

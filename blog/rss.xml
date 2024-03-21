@@ -27,6 +27,8 @@
 <p>As such, I've downloaded an image for each blog post so far, specified the property with the proper image name, and redeployed the changes. While I see the images in the page source, those images don't seem to appear when I do something like paste a link to the blog in slack. In addition, I then made them the <code>og<!-- -->:image</code> thinking that would do it but I'm still not seeing it work. In fact, now that I've specified them as <code>og<!-- -->:image</code> I'm seeing that Docusaurus isn't copying the images over into the asset folder as expected. Well, for now, I'm going to put this image thing on ice. What I want to do next is just influence the styling of the UI window a little.</p>
 <h1>UI Styling Part Two</h1>
 <p>The Docusaurus docs on the Algolia search integration contains some information on styling that can be used OOTB (<a href="https://docusaurus.io/docs/search#connecting-algolia" target="_blank" rel="noopener noreferrer">https://docusaurus.io/docs/search#connecting-algolia</a>), so I'm going to try that first.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="after">After<a href="https://randombeeper.github.io/JamesDevDocsSrc/blog/uistyle#after" class="hash-link" aria-label="Direct link to After" title="Direct link to After">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://randombeeper.github.io/JamesDevDocsSrc/assets/images/afterchange-e9e11cf033b441a802400d1a8cf43b91.png" width="559" height="452" class="img_ev3q"></p>
 <p>That's all for today...</p>]]></content:encoded>
             <category>DocSearch</category>
         </item>

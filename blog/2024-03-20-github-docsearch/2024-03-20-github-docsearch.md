@@ -6,7 +6,6 @@ tags: [Docusaurus,GitHub,GitHub Pages,DocSearch]
 og:image: ./githubdocsearchfun.jpeg
 ---
 
-# Docusaurus in GitHub
 Initially I goofed around with getting the Docusaurus site into GH using two different repos, one for the site source and one for the build directory. After goofing with that for a little bit, I stumbled upon the command to deploy to a different branch within your repo:
 
 ```bash

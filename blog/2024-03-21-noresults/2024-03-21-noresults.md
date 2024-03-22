@@ -7,8 +7,6 @@ date: 2024-03-21T10:00
 og:image: ./noresultssad.jpeg
 ---
 
-# Search UI
-
 Picking up from yesterday (apply for DocSearch), I was accepted into the program. I received an email with suggested CSS/JS that I can put on my site. At first I started to do that but then as I was looking around the Docusaurus docs I found that there was an out-of-the-box integration already available for Algolia (https://docusaurus.io/docs/search#using-algolia-docsearch). So instead of trying to figure out how to put the CSS/JS code directly into the right areas of my docs, I just updated the docusaurus.config.js file as show below.
 
 <!--truncate-->

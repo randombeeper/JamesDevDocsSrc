@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Getting Started with Algolia DocSearch',
+  title: 'Getting Started with Algolia DocSearch | Using Docusaurus, Github Pages, and DocSearch',
   tagline: 'Using Docusaurus, Github Pages, and DocSearch',
   favicon: 'img/favicon.ico',
   trailingSlash: true,
@@ -65,11 +65,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-
-      metadata: [
-        {name: 'og:title', content: 'Getting Started with Algolia DocSearch | Using Docusaurus, Github Pages, and DocSearch'},
-      ],
-
       // Replace with your project's social card
       image: 'img/algoliadocusearch-social-card.jpeg',
       

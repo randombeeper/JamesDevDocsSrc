@@ -9,7 +9,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Getting Started with Algolia DocSearch | Using Docusaurus, Github Pages, and DocSearch',
+  // this is the title on the front page too
+  title: 'Getting Started with Algolia DocSearch',
+  // this is just under the title on the front page
   tagline: 'Using Docusaurus, Github Pages, and DocSearch',
   favicon: 'img/favicon.ico',
   trailingSlash: true,
@@ -86,7 +88,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'NotUsedYet',
           },
           {
             to: '/blog', 

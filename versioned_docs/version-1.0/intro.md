@@ -37,20 +37,5 @@ npm run start
 The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/. Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
 
 ## Check your site into GitHub
-
-Let's just use the instructions from Docusaurus.
-
-```bash
-https://docusaurus.io/docs/deployment#deploying-to-github-pages
-```
-
 ## Deploy to a branch
-This will actually deploy to a branch, which will trigger GH Actions and then deploy to your site. It may take a few minutes.
-
-```bash
-npm run deploy
-```
-
 ## Setup Search
-
-Now with your site deployed.

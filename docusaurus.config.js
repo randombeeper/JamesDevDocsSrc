@@ -51,6 +51,10 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          lastVersion: 'current',
+          versions: {
+            
+          }
         },
         blog: {
           showReadingTime: true,
@@ -72,9 +76,9 @@ const config = {
       
       algolia: {
         appId: 'DMIMK1IC3E',
-        apiKey: '6f839a0554810d57667dd09cd94b9966',
-        indexName: 'jamesdevsrc',
-        contextualSearch: false,
+        apiKey: 'c16bd53fae140b4371c00f4dc0aa2c3e',
+        indexName: 'jamesdevsrcindex',
+        contextualSearch: true,
       },
 
       navbar: {
@@ -88,7 +92,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'NotUsedYet',
+            label: 'Tutorials',
           },
           {
             to: '/blog', 
@@ -109,7 +113,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tutorials',
                 to: '/docs/intro',
               },
             ],

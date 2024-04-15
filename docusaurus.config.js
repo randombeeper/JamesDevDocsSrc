@@ -50,11 +50,17 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'docs',
           sidebarPath: './sidebars.js',
-          lastVersion: 'current',
+          editUrl: 'https://github.com/randombeeper/JamesDevDocsSrc',
           versions: {
-            
-          }
+            current: {
+              label: 'current'
+            }
+          },
+          lastVersion: 'current',
+          showLastUpdatedAuthor: true,
+          showLastUpdatedTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -84,7 +90,7 @@ const config = {
       navbar: {
         title: '+ Algolia DocSearch',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Docusaurus + Algolia DocSearch',
           src: 'img/logo.svg',
         },
         items: [

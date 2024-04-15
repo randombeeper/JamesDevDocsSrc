@@ -38,11 +38,7 @@ The `npm run start` command builds your website locally and serves it through a 
 
 ## Check your site into GitHub
 
-Let's just use the instructions from Docusaurus.
-
-```bash
-https://docusaurus.io/docs/deployment#deploying-to-github-pages
-```
+Let's just use the instructions from Docusaurus: https://docusaurus.io/docs/deployment#deploying-to-github-pages
 
 ## Deploy to a branch
 This will actually deploy to a branch, which will trigger GH Actions and then deploy to your site. It may take a few minutes.
@@ -53,4 +49,27 @@ npm run deploy
 
 ## Setup Search
 
-Now with your site deployed.
+### Apply for DocSearch
+
+Go here: https://docsearch.algolia.com/apply/
+Wait for your approval email.
+
+### Update your Crawler Config
+
+Use the link in the approval email
+https://docusaurus.io/docs/search#using-algolia-docsearch
+
+### Update your docusaurus.config.js with the Algolia information provided in the approval email
+
+```bash
+  themeConfig:
+    ({   
+      algolia: {
+        appId: 'YOURAPPID',
+        apiKey: 'apikeyprovided',
+        indexName: 'yourindexname',
+        contextualSearch: true,
+      },
+```
+
+### 

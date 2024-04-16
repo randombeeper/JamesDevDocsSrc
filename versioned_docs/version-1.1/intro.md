@@ -53,15 +53,13 @@ npm run deploy
 
 Go here: https://docsearch.algolia.com/apply/
 Wait for your approval email.
-Once you recieve it, accept the invitation to begin.
 
-### Put Records Into Your Index
+### Update your Crawler Config
 
-Use the link in the approval email to edit the Crawler configuration file and use the Docusaurus v3 template (https://docsearch.algolia.com/docs/templates/#docusaurus-v3-template), save, and run crawler. More instructions here: https://docusaurus.io/docs/search#using-algolia-docsearch.
+Use the link in the approval email
+https://docusaurus.io/docs/search#using-algolia-docsearch
 
-### Update Website
-
-Since we are using Docusaurus, add this to your docusaurus.config.js:
+### Update your docusaurus.config.js with the Algolia information provided in the approval email
 
 ```bash
   themeConfig:
@@ -74,4 +72,4 @@ Since we are using Docusaurus, add this to your docusaurus.config.js:
       },
 ```
 
-That's it!
+### 

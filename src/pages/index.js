@@ -28,8 +28,7 @@ function HomepageHeader() {
   );
 }
 
-// JG - I'm thinking this is the body within "main"
-// so maybe put the JS
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (

@@ -72,6 +72,7 @@ const config = {
     ],
   ],
 
+  // just a comment to force rebuild/redeploy after changing a node module's code
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -83,10 +84,11 @@ const config = {
         apiKey: 'c16bd53fae140b4371c00f4dc0aa2c3e',
         indexName: 'jamesdevsrcindex',
         contextualSearch: true,
+        insights: true,
       },
 
       navbar: {
-        title: '+ Algolia DocSearch',
+        title: '+ Algolia DocSearch 2',
         logo: {
           alt: 'Docusaurus + Algolia DocSearch',
           src: 'img/logo.svg',

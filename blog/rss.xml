@@ -4,10 +4,20 @@
         <title>Getting Started with Algolia DocSearch Blog</title>
         <link>https://randombeeper.github.io/JamesDevDocsSrc/blog</link>
         <description>Getting Started with Algolia DocSearch Blog</description>
-        <lastBuildDate>Fri, 22 Mar 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Apr 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Implementing search without autocomplete]]></title>
+            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/simplesearch</link>
+            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/simplesearch</guid>
+            <pubDate>Thu, 18 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[this was a test]]></description>
+            <content:encoded><![CDATA[<p>this was a test</p>
+<p>but I decided not to put something here.</p>]]></content:encoded>
+            <category>search-helper</category>
+        </item>
         <item>
             <title><![CDATA[Changing The Site Imagery]]></title>
             <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/imagery</link>

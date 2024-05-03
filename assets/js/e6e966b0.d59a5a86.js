@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjamesdevdocs=self.webpackChunkjamesdevdocs||[]).push([[758],{6627:e=>{e.exports=JSON.parse('{"label":"search-helper","permalink":"/JamesDevDocsSrc/blog/tags/search-helper","allTagsPath":"/JamesDevDocsSrc/blog/tags","count":1,"unlisted":false}')}}]);

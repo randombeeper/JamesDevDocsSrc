@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://randombeeper.github.io/JamesDevDocsSrc/blog</id>
     <title>Getting Started with Algolia DocSearch Blog</title>
-    <updated>2024-03-22T00:00:00.000Z</updated>
+    <updated>2024-04-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://randombeeper.github.io/JamesDevDocsSrc/blog"/>
     <subtitle>Getting Started with Algolia DocSearch Blog</subtitle>
     <icon>https://randombeeper.github.io/JamesDevDocsSrc/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Implementing search without autocomplete]]></title>
+        <id>https://randombeeper.github.io/JamesDevDocsSrc/blog/simplesearch</id>
+        <link href="https://randombeeper.github.io/JamesDevDocsSrc/blog/simplesearch"/>
+        <updated>2024-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[this was a test]]></summary>
+        <content type="html"><![CDATA[<p>this was a test</p>
+<p>but I decided not to put something here.</p>]]></content>
+        <author>
+            <name>James Gray</name>
+            <uri>https://github.com/randombeeper</uri>
+        </author>
+        <category label="search-helper" term="search-helper"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Changing The Site Imagery]]></title>
         <id>https://randombeeper.github.io/JamesDevDocsSrc/blog/imagery</id>

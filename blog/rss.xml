@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Getting Started with Algolia DocSearch Blog</title>
-        <link>https://randombeeper.github.io/JamesDevDocsSrc/blog</link>
+        <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/</link>
         <description>Getting Started with Algolia DocSearch Blog</description>
         <lastBuildDate>Thu, 18 Apr 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Implementing search without autocomplete]]></title>
-            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/simplesearch</link>
-            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/simplesearch</guid>
+            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/simplesearch/</link>
+            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/simplesearch/</guid>
             <pubDate>Thu, 18 Apr 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[this was a test]]></description>
             <content:encoded><![CDATA[<p>this was a test</p>
@@ -20,8 +20,8 @@
         </item>
         <item>
             <title><![CDATA[Changing The Site Imagery]]></title>
-            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/imagery</link>
-            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/imagery</guid>
+            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/imagery/</link>
+            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/imagery/</guid>
             <pubDate>Fri, 22 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[By now I have sent this site to different people over slack and I keep seeing this being shown in my message:]]></description>
             <content:encoded><![CDATA[<p>By now I have sent this site to different people over slack and I keep seeing this being shown in my message:</p>
@@ -43,8 +43,8 @@
         </item>
         <item>
             <title><![CDATA[Changing the UI styling]]></title>
-            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/uistyle</link>
-            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/uistyle</guid>
+            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/uistyle/</link>
+            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/uistyle/</guid>
             <pubDate>Thu, 21 Mar 2024 13:00:00 GMT</pubDate>
             <description><![CDATA[At this point everything is working as expected, as far as I can tell. Just to recap at a VERY high level:]]></description>
             <content:encoded><![CDATA[<p>At this point everything is working as expected, as far as I can tell. Just to recap at a VERY high level:</p>
@@ -59,9 +59,9 @@
 <p>As such, I've downloaded an image for each blog post so far, specified the property with the proper image name, and redeployed the changes. While I see the images in the page source, those images don't seem to appear when I do something like paste a link to the blog in slack. In addition, I then made them the <code>og<!-- -->:image</code> thinking that would do it but I'm still not seeing it work. In fact, now that I've specified them as <code>og<!-- -->:image</code> I'm seeing that Docusaurus isn't copying the images over into the asset folder as expected. Well, for now, I'm going to put this image thing on ice. What I want to do next is just influence the styling of the UI window a little.</p>
 <h1>UI Styling Part Two</h1>
 <p>The Docusaurus docs on the Algolia search integration contains some information on styling that can be used OOTB (<a href="https://docusaurus.io/docs/search#connecting-algolia" target="_blank" rel="noopener noreferrer">https://docusaurus.io/docs/search#connecting-algolia</a>), so I'm going to try that first. Now that I look at it closer, I see what has been done is just providing you the values that you can more easily override, if you want to. Just to do some testing, I changed the background color to something very obvious, to be sure the change made an impact.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="before">Before<a href="https://randombeeper.github.io/JamesDevDocsSrc/blog/uistyle#before" class="hash-link" aria-label="Direct link to Before" title="Direct link to Before">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="before">Before<a class="hash-link" aria-label="Direct link to Before" title="Direct link to Before" href="https://randombeeper.github.io/JamesDevDocsSrc/blog/uistyle/#before">​</a></h2>
 <p><img decoding="async" loading="lazy" alt="alt text" src="https://randombeeper.github.io/JamesDevDocsSrc/assets/images/beforechange-e9e11cf033b441a802400d1a8cf43b91.png" width="559" height="452" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="after">After<a href="https://randombeeper.github.io/JamesDevDocsSrc/blog/uistyle#after" class="hash-link" aria-label="Direct link to After" title="Direct link to After">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="after">After<a class="hash-link" aria-label="Direct link to After" title="Direct link to After" href="https://randombeeper.github.io/JamesDevDocsSrc/blog/uistyle/#after">​</a></h2>
 <p><img decoding="async" loading="lazy" alt="alt text" src="https://randombeeper.github.io/JamesDevDocsSrc/assets/images/afterchange-a6071c767f929f9f02c3c372a5c9093e.png" width="560" height="305" class="img_ev3q"></p>
 <p>This change was reverted. :/</p>
 <p>That's all for today...</p>]]></content:encoded>
@@ -69,8 +69,8 @@
         </item>
         <item>
             <title><![CDATA[Why are there duplicate results?]]></title>
-            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/finetuning</link>
-            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/finetuning</guid>
+            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/finetuning/</link>
+            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/finetuning/</guid>
             <pubDate>Thu, 21 Mar 2024 11:00:00 GMT</pubDate>
             <description><![CDATA[Picking up from the last post, I'm now wondering why I'm getting multiple results in the UI when I search for phrases I know only exist on one page in the blog.]]></description>
             <content:encoded><![CDATA[<p>Picking up from the last post, I'm now wondering why I'm getting multiple results in the UI when I search for phrases I know only exist on one page in the blog.</p>
@@ -101,8 +101,8 @@
         </item>
         <item>
             <title><![CDATA[Where are my results?]]></title>
-            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/noresults</link>
-            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/noresults</guid>
+            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/noresults/</link>
+            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/noresults/</guid>
             <pubDate>Thu, 21 Mar 2024 10:00:00 GMT</pubDate>
             <description><![CDATA[Picking up from yesterday (apply for DocSearch), I was accepted into the program. I received an email with suggested CSS/JS that I can put on my site. At first I started to do that but then as I was looking around the Docusaurus docs I found that there was an out-of-the-box integration already available for Algolia (https://docusaurus.io/docs/search#using-algolia-docsearch). So instead of trying to figure out how to put the CSS/JS code directly into the right areas of my docs, I just updated the docusaurus.config.js file as show below.]]></description>
             <content:encoded><![CDATA[<p>Picking up from yesterday (apply for DocSearch), I was accepted into the program. I received an email with suggested CSS/JS that I can put on my site. At first I started to do that but then as I was looking around the Docusaurus docs I found that there was an out-of-the-box integration already available for Algolia (<a href="https://docusaurus.io/docs/search#using-algolia-docsearch" target="_blank" rel="noopener noreferrer">https://docusaurus.io/docs/search#using-algolia-docsearch</a>). So instead of trying to figure out how to put the CSS/JS code directly into the right areas of my docs, I just updated the docusaurus.config.js file as show below.</p>
@@ -116,8 +116,8 @@
         </item>
         <item>
             <title><![CDATA[GitHub and DocSearch]]></title>
-            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/github-docsearch</link>
-            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/github-docsearch</guid>
+            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/github-docsearch/</link>
+            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/github-docsearch/</guid>
             <pubDate>Wed, 20 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Initially I goofed around with getting the Docusaurus site into GH using two different repos, one for the site source and one for the build directory. After goofing with that for a little bit, I stumbled upon the command to deploy to a different branch within your repo:]]></description>
             <content:encoded><![CDATA[<p>Initially I goofed around with getting the Docusaurus site into GH using two different repos, one for the site source and one for the build directory. After goofing with that for a little bit, I stumbled upon the command to deploy to a different branch within your repo:</p>
@@ -136,8 +136,8 @@
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/welcome</link>
-            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/welcome</guid>
+            <link>https://randombeeper.github.io/JamesDevDocsSrc/blog/welcome/</link>
+            <guid>https://randombeeper.github.io/JamesDevDocsSrc/blog/welcome/</guid>
             <pubDate>Tue, 19 Mar 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[I recently joined Algolia as Senior Program Manager for DocSearch (and other programs too). I'm a firm believer that hands on experience is the ultimate way to increase knowhow and as program manager for DocSearch, that's the first thing I wanted to do. So, this blog will detail the process I went through as a complete newcomer to DocSearch. As an added bonus, this site is also going to serve as the actual input for the DocSearch I create! As I go, I will be able to create more content, which will require me to learn more about DocSearch, which will require me to write more about it. Win win!]]></description>
             <content:encoded><![CDATA[<p>I recently joined Algolia as Senior Program Manager for DocSearch (and other programs too). I'm a firm believer that hands on experience is the ultimate way to increase knowhow and as program manager for DocSearch, that's the first thing I wanted to do. So, this blog will detail the process I went through as a complete newcomer to DocSearch. As an added bonus, this site is also going to serve as the actual input for the DocSearch I create! As I go, I will be able to create more content, which will require me to learn more about DocSearch, which will require me to write more about it. Win win!</p>

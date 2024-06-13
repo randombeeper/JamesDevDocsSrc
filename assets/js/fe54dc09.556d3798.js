@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjamesdevdocs=self.webpackChunkjamesdevdocs||[]).push([[3937],{6418:s=>{s.exports=JSON.parse('{"label":"GitHub Pages","permalink":"/JamesDevDocsSrc/blog/tags/git-hub-pages","allTagsPath":"/JamesDevDocsSrc/blog/tags","count":1,"unlisted":false}')}}]);

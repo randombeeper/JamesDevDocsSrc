@@ -80,12 +80,9 @@ const config = {
       image: 'img/algoliadocusearch-social-card.jpeg',
       
       algolia: {
-        //appId: 'DMIMK1IC3E',
-        //apiKey: 'c16bd53fae140b4371c00f4dc0aa2c3e',
-        //indexName: 'jamesdevsrc',
-        appId: '82VLS1TU5K',
-        apiKey: 'bfdc9eff848b16b6167efaa4a84d5e27',
-        indexName: 'astrobuildindx',
+        appId: '7KX1KKVYQZ',
+        apiKey: 'd4ca3a4876f86fb2f7050e27257f684b',
+        indexName: 'randombeeperio',
         contextualSearch: false,
         searchPagePath: false,
         insights: true,
